@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#979393"
+    android:orientation="vertical"
+    tools:context=".exerciseActivity"
+    android:gravity="center_horizontal"
+    android:paddingTop="75dp" >
+
+    <TextView
+        android:id="@+id/enter_excerciseText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="16dp"
+        android:backgroundTint="#757373"
+        android:shadowColor="#717171"
+        android:text="Enter Excercise Below:"
+        android:textColor="#FF5722"
+        android:textColorHint="#FF5722" />
+
+
+    <EditText
+        android:id="@+id/title_edittext"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:hint="Exercise Name"
+        android:textAlignment="center"
+        android:textColorHint="#3F51B5" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#3E3D3D" />
+
+    <TextView
+        android:id="@+id/reps_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:text="How Many Reps:"
+        android:textColor="#FF5722" />
+
+    <EditText
+        android:id="@+id/reps_editText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="14sp"
+        android:hint="# of reps"
+        android:textAlignment="center"
+        android:textColorHint="#3F51B5" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#555454" />
+
+    <TextView
+        android:id="@+id/sets_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How Many Sets?"
+        android:textSize="20sp"
+        android:textColor="#FF5722" />
+
+    <EditText
+        android:id="@+id/sets_editText"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:fadeScrollbars="false"
+        android:hint="# of sets"
+        android:textSize="14sp"
+        android:textAlignment="center"
+        android:textColorHint="#3F51B5"
+        android:textIsSelectable="false" />
+
+    <Button
+        android:id="@+id/share_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/blue"
+        android:layout_margin="22dp"/>
+
+</LinearLayout>
